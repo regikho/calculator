@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'digital';
+    src: url("./fonts/digital-7\ \(mono\).ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0%;
+    overflow-x: hidden;
+    font-family: 'digital';
+}  
+
+
+#header {
+    position: flex;
+    width: 100vw;
+    height: 80px;
+    background-color: #2d4654;
+
+}
+ 
+h1 {
+    color: #f4f4ef;
+    font: 50px 'digital';
+    margin-left: 20vw;
+    margin-top: -40px;
+}
+
+img {
+    position: relative;
+    left: 15vw;
+    top: 15px;
+    height: 50px;
+    width: 50px;
+}
+
+.container {
+    height: 90vh;
+    background-color: #6E8894;
+}
+
+.calculator {
+    padding: 10px;
+    height: 550px;
+    width: 500px;
+    margin: auto;
+    margin-top: 15vh;
+    background-color: #20232a;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.display-box {
+    font-family: 'digital';
+    font-size: 30px;
+    background-color: #f4f4ef;
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 5px;
+    width: 100%;
+    height: 65%;
+    padding-left: 10px;
+}
+
+.button {
+    font-family: 'digital';
+    font-size: 30px;
+    background-color: #2D4654;
+    color: #f4f4ef;
+    border: solid black 0.5px;
+    width: 100%;
+    border-radius: 5px;
+    height: 70%;
+    outline: none;
+    table-layout: auto;
+}
+
+.button:active {
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
